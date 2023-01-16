@@ -11,17 +11,17 @@
 <p align='center'>🚀 Desafio concluído ✅</p>
 
 
-💻 Sobre
+##💻 Sobre
 É uma página de receita simples ensinando a fazer waffles clássico. O projeto é a resolução de um desafio de HTML e CSS da Rocketseat. [Link para página do desafio](https://efficient-sloth-d85.notion.site/Desafio-Piloto-P-gina-de-Receita-15acc6a34f744484a2e64a1f115bfbae).
 
 
-📷 Prints de tela
+##📷 Prints de tela
 ![img](./src/img/screenshot-desktop.png) ![img](./src/img/screenshot-desktop2.png)
 ![img](./src/img/screenshot-mobile.png) ![img](./src/img/screenshot-mobile2.png) ![img](./src/img/screenshot-mobile3.png)
 
 
 
-🛠 Tecnologias
+##🛠 Tecnologias
 
 - Linguagens: 
     - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML) 
@@ -31,12 +31,12 @@
     - Fonts: [Roboto](https://fonts.google.com/specimen/Roboto)
  
 
-🦸‍♂️ Autor 
+##🦸‍♂️ Autor 
 
 Feito com ❤️ By Gustavo Victor
 
 
-📝 Licença 
+##📝 Licença 
 
 O projeto está sob a [Licensa MIT](./LICENSE) 
 
