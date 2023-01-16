@@ -1,0 +1,100 @@
+/*css variables*/
+:root {
+    --pageBackgroundColor: #eaeaea;
+    --containerBackgroundColor: #fff;
+    --headingColor: #1b1b1b;
+    --textColor: #393939; 
+    --subTitleFooterColor: #8f8f8f;
+}
+
+/*reset and main styles*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--pageBackgroundColor);
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 1.75rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+h1, h2 {
+    color: var(--headingColor);
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+li, p {
+    font-size: 1rem;
+    color: var(--textColor);
+}
+
+li, p, figcaption {
+    font-weight: 400;
+}
+
+li {
+    list-style-position: inside;
+    line-height: 2.5rem;
+}
+
+footer, figcaption {
+    font-size: 0.75rem;
+    color: var(--subTitleFooterColor);
+}
+
+
+/*recipe container */
+.container {
+    width: 80%;
+    max-width: 800px;
+    background-color: #FFFFFF;
+    margin: 2rem auto;
+    border-radius: 10px;
+    padding: 30px 20px;
+    box-shadow: 0px 1px 10px rgba(58, 57, 57, 0.1); 
+}
+
+/*titles*/
+.container h1, h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container header, .container main {
+    width: 100%;
+}
+
+/*header and img*/
+.container header figure img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.container header figure figcaption {
+    text-align: right;
+}
+
+.container main section {
+    margin: 2.7rem 0 0.5rem;
+}
+
+
+/*footer*/
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0 20px;
+}
